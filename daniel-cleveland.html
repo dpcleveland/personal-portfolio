@@ -1,94 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Daniel Cleveland">
+<body role="document">
 
-    <title>Daniel Cleveland</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles -->
-    <link href="custom-styles.css" rel="stylesheet">
-
-  </head>
-
-  <body role="document">
-
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Daniel Cleveland</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav text-center">
-            <li><a href="#clients">Clients</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#positions">Positions</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#skills">Skills</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-    <div class="container theme-showcase" role="main">
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Theme example</h1>
-        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
-      </div>
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            	<span class="sr-only">Toggle navigation</span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand site-name" href="#">Daniel Cleveland</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav text-center">
+					<li><a href="#clients">Clients</a></li>
+					<li><a href="#positions">Positions</a></li>
+					<li class="right-margin"><a href="#skills">Skills</a></li>
 
 
-      <div class="page-header">
-        <h1>Buttons</h1>
-      </div>
-      <p>
-        <button type="button" class="btn btn-lg btn-default">Default</button>
-        <button type="button" class="btn btn-lg btn-primary">Primary</button>
-        <button type="button" class="btn btn-lg btn-success">Success</button>
-        <button type="button" class="btn btn-lg btn-info">Info</button>
-        <button type="button" class="btn btn-lg btn-link">Link</button>
-      </p>
+					<li class="social-media-icon"><a href="#facebook" target="_blank"><i class="fa fa-facebook "></i></a></li>
+					<li class="social-media-icon"><a href="#twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li class="social-media-icon"><a href="#github" target="_blank"><i class="fa fa-github"></i></a></li>
+					<li class="social-media-icon"><a href="#linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+
+		</div>
+	</nav>
+
+	<div class="container-fluid" role="main">
+
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+
+		<div class="row">
+			<div class="primary">
+				<div class="row">
+					<div class="col-xs-6">
+						<img class="img-responsive center-block" src="http://cache4.asset-cache.net/gc/183265864-businessman-sitting-on-floor-using-laptop-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=bjK2es7O%2Fft4giBvY%2By7rz6zTJZkGqBWS47D1%2B4MCHqtDjVZbQ6qUjMJ%2Fy1B%2FHIW" alt=""
+						/>
+					</div>
+					<div class="col-xs-6">
+						<img class="img-responsive center-block img-flipped" src="http://cache4.asset-cache.net/gc/183265864-businessman-sitting-on-floor-using-laptop-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=bjK2es7O%2Fft4giBvY%2By7rz6zTJZkGqBWS47D1%2B4MCHqtDjVZbQ6qUjMJ%2Fy1B%2FHIW"
+							alt="" />
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col-xs-6 right-align">
+						<h1>Marketer</h1>
+						<h3>Online marketer with a passion for driving high ROI and capturing new audiences</h3>
+					</div>
+					<div class="col-xs-6">
+						<h1>&lt;Coder&gt;</h1>
+						<h3>Front-end developer focused on building incredible, efficient user experiences</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="secondary">
+		<div class="container">
 
 
-      <div class="page-header">
-        <h1>Thumbnails</h1>
-      </div>
-      <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+			<div class="page-header text-center">
+				<h2 id="clients">Clients Past &amp; Present</h2>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<img data-src="holder.js/300x200" class="img-thumbnail center-block" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<img data-src="holder.js/300x200" class="img-thumbnail center-block" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<img data-src="holder.js/300x200" class="img-thumbnail center-block" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+				</div>
+			</div>
+			<div class="row extra-margin">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<img data-src="holder.js/300x200" class="img-thumbnail center-block" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<img data-src="holder.js/300x200" class="img-thumbnail center-block" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<img data-src="holder.js/300x200" class="img-thumbnail center-block" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+				</div>
+			</div>
+
+			<div class="page-header text-center">
+				<h2 id="positions">Positions Past &amp; Present</h2>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<img data-src="http://i1074.photobucket.com/albums/w406/udaibabloo/SHOE/IMG_8611_zpsm3jxepx8.jpg" class="img-thumbnail center-block" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<img data-src="http://i.imgur.com/tyOpbJi.jpg" class="img-thumbnail center-block" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<img data-src="holder.js/300x200" class="img-thumbnail center-block" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+				</div>
+			</div>
 
 
-      <div class="page-header">
-        <h1>Progress bars</h1>
-      </div>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span></div>
-      </div>
+			<div class="page-header text-center">
+				<h2 id="skills">Skills</h2>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"><span>HTML</span></div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+					<span>CSS</span>
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+					<span>JavaScript</span>
+				</div>
+			</div>
 
-    </div> <!-- /container -->
-
-    <!-- Bootstrap core JavaScript -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
-  </body>
-</html>
+			<div class="page-header text-center">
+				<p>&copy; 2016 Daniel Cleveland</p>
+			</div>
+		</div>
+	</div>
+	<!-- /container -->
+</body>

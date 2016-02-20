@@ -1,15 +1,113 @@
 body {
-  padding-top: 70px;
-  padding-bottom: 30px;
+	padding-top: 70px;
 }
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+.page-header {
+	margin-top: 100px;
+}
+
+.nav li a {
+	font-size: 22px;
+}
+
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
+
 .navbar-brand {
-    font-size: 36px;
-    margin-right: 125px;
+	font-size: 36px;
 }
-.nav li {
-    font-size: 22px;
+
+.navbar .container .navbar-header a {
+	color: #ffffff;
+}
+
+.navbar .container .navbar-header a:hover {
+	color: #9d9d9d;
+}
+
+.navbar .container .navbar-collapse ul li a {
+	color: #ffffff;
+}
+
+.navbar .container .navbar-collapse ul li a:hover {
+	color: #9d9d9d;
+}
+
+.social-media-icon {
+	margin-left: -5px;
+}
+
+.right-margin {
+	margin-right: 50px;
+}
+
+.img-flipped {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+.primary {
+	padding-right: 60px;
+	padding-left: 60px;
+	margin-bottom: 30px;
+	background-color: #fff;
+}
+
+.secondary {
+	background-color: #eee;
+}
+
+.extra-margin {
+	margin-top: 20px;
+}
+
+.right-align {
+	text-align: right;
+}
+
+@media (min-width: 768px) {
+	#navbar {
+		float: right;
+	}
+}
+
+@media (max-width: 768px) {
+	.right-margin {
+		margin-right: 0px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+	#navbar {
+		float: left;
+		margin-left: -15px;
+	}
+	.theme-showcase {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.primary {
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
 }
