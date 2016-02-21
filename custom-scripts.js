@@ -1,3 +1,5 @@
+// Grey out other pictures on mouseover
+// Call with .picture class
 $(function() {
 	var elems = $('.picture');
 	elems.on('mouseenter mouseleave', function(e) {
