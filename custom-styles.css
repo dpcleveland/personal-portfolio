@@ -76,6 +76,7 @@ p {
 
 .primary {
 	margin-bottom: 0px;
+	padding-top: 48px;
 	padding-bottom: 0px;
 	background-color: #fff;
 }
@@ -116,6 +117,20 @@ p {
 	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
+.marketer {
+	position: absolute;
+	top: 150px;
+	left: 1%;
+	width: 25%;
+}
+
+.coder {
+	position: absolute;
+	top: 150px;
+	left: 75%;
+	width: 25%;
+}
+
 
 /* Media queries */
 
@@ -123,17 +138,32 @@ p {
 	#navbar {
 		float: right;
 	}
-	.primary {
-		padding-top: 48px;
-	}
 }
 
 @media (max-width: 768px) {
 	.right-margin {
 		margin-right: 0px;
 	}
-	.primary {
-		padding-top: 48px;
+	.marketer {
+		top: 100px;
+		left: 10%;
+	}
+	.marketer h1 {
+		font-size: 28px;
+	}
+	.coder {
+		top: 100px;
+		left: 65%;
+		text-align: right;
+	}
+	.coder h1 {
+		font-size: 28px;
+	}
+	.marketer h3 {
+		font-size: 14px;
+	}
+	.coder h3 {
+		font-size: 14px;
 	}
 }
 
@@ -144,5 +174,52 @@ p {
 	}
 	.right-margin {
 		margin-right: 5px;
+	}
+	.coder {
+		text-align: right;
+	}
+}
+
+@media (max-width: 710px) {
+	.marketer {
+		top: 75px;
+		left: 7%;
+	}
+	.coder {
+		top: 75px;
+		left: 70%;
+	}
+	.marketer h3 {
+		font-size: 12px;
+	}
+	.coder h3 {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 550px) {
+	.marketer h3 {
+		display: none;
+	}
+	.coder h3 {
+		display: none;
+	}
+}
+
+@media (max-width: 415px) {
+	.marketer {
+		top: 50px;
+	}
+	.coder {
+		top: 50px;
+	}
+}
+
+@media (max-width: 365px) {
+	.marketer {
+		display: none;
+	}
+	.coder {
+		display: none;
 	}
 }
