@@ -2,6 +2,7 @@
 
 body {
 	padding-top: 70px;
+	background-color: #333639;
 }
 
 h1 {
@@ -50,7 +51,7 @@ p {
 }
 
 .navbar .container .navbar-header a {
-	color: #ffffff;
+	color: #adb9bd;
 }
 
 .navbar .container .navbar-header a:hover {
@@ -58,7 +59,7 @@ p {
 }
 
 .navbar .container .navbar-collapse ul li a {
-	color: #ffffff;
+	color: #adb9bd;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 }
@@ -78,7 +79,7 @@ p {
 	margin-bottom: 0px;
 	padding-top: 48px;
 	padding-bottom: 0px;
-	background-color: #fff;
+	color: #adb9bd;
 }
 
 .secondary {
