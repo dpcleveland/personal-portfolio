@@ -112,6 +112,10 @@ p {
 	font-size: 18px;
 }
 
+.lightbox {
+	display: none;
+}
+
 .shadow {
 	-webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
@@ -169,12 +173,14 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
+	.social-media-icon a i {
+		display: none;
+	}
 	#navbar {
 		float: right;
-		margin-left: -15px;
 	}
 	.right-margin {
-		margin-right: 5px;
+		margin-right: 0px;
 	}
 	.coder {
 		text-align: right;
